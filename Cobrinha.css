@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+#tabuleiro{
+    display: block;
+    float: left;
+    margin-left: 30%;
+}
+#score{
+    display: block;
+    float: right;
+    height: 300px;
+    margin-right: 15%;
+    margin-top: 100px; 
+    font-family: 'OCR A Std', monospace;
+}
+
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;    
+    padding: 30px;
+    margin: auto;
+}
+
+table td{
+    /*border: 1px solid black;*/
+    padding: 10px;
+}
+
+.cinza{
+    background-color: gray;
+}
+.vermelho{
+    background-color: red;
+}
+
+.branco{
+    background-color: white;
+}
+.verde{
+    background-color: green;
+}
+
+#restart{
+    background-color: black; 
+    border: none;
+    color: white;
+    margin-left: 75px ;
+    margin-top: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    transition: background-color 1s;
+}
+#restart:hover{
+    background-color: #606060;
+    text-decoration: underline;
+    cursor: pointer;
+}
+fieldset{
+    display: block;
+    float: center;
+    width: 200px;
+    height: 100px;
+    border-color: black;
+    font-size: 30pt;
+    text-align: center;
+}
+legend{
+    font-size: 20pt;
+    text-align: left;
+}
+p{
+    margin: auto;
+}
